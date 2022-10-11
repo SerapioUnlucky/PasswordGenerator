@@ -5,9 +5,9 @@ function generate_pwd(event){
     const length = 20,
     charset = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789,;:!?./#{[|@]}&';
 
-    var pwd = '';
+    const pwd = '';
 
-    for(var i = 0, n = charset.length; i < length; ++i){
+    for(const i = 0, n = charset.length; i < length; ++i){
 
         pwd += charset.charAt(Math.floor(Math.random() * n));
 
